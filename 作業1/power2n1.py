@@ -23,4 +23,4 @@ def power2n_d(n, memo={}):
     memo[n] = result
     return result
 
-print('power2n(40)=', power2n_c(40))
+print('power2n(40)=', power2n_d(40))
